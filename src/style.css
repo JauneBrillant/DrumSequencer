@@ -1,0 +1,133 @@
+body {
+    background-color: #313131;
+    /* min-height: 100vh; */
+}
+
+.container {
+    /* background-color: #2d2c2c; */
+    /* border: 10px solid #7eefc5; */
+    /* border-radius: 10px; */
+    margin: 0 auto;
+    width: 95%;
+    height: 90vh;
+    margin-top: 40px;
+}
+
+/* ---------------------------------   TOP   ----------------------------------------------------------------- */
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top > h1 {
+    color: #7eefc5;
+    margin-left: 2.5em;
+}
+
+#play-button {
+    margin-left: 5em;
+    padding: 15px 20px;
+    background-color: #7eefc5;
+    border: none;
+    border-radius: 5%;
+    font-weight: 700;
+}
+
+/* ---------------------------------   MAIN   ---------------------------------------------------------------------- */
+
+.main {
+    display: flex;
+    /* border: 2px solid #7eefc5; */
+    border-radius: 1em;
+}
+
+/* ---------------------------   MAIN LEFT(INSTRUMENT)   ------------------------------------------------------------ */
+
+.instruments > div {
+    width: 20em;
+    padding: 1.5em;
+    margin: 1.8em;
+}
+
+.kick {
+    border: 1px solid #2d2c2c;
+    border-left-color: #9ad5ca;
+    border-left-width: 0.5em;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #9ad5ca;
+}
+
+.snare {
+    border: 1px solid #2d2c2c;
+    border-left-color: #f6efee;
+    border-left-width: 0.5em;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #f6efee;
+}
+
+.clap {
+    border: 1px solid #2d2c2c;
+    border-left-color: #8075ff;
+    border-left-width: 0.5em;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #8075ff;
+}
+
+.hat-open {
+    border: 1px solid #2d2c2c;
+    border-left-color: #d8a48f;
+    border-left-width: 0.5em;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #d8a48f;
+}
+
+.hat-closed {
+    border: 1px solid #2d2c2c;
+    border-left-color: #d8a48f;
+    border-left-width: 0.5em;
+    border-radius: 5px;
+    background-color: #222222;
+    color: #d8a48f;
+}
+
+/* ----------------------------   MAIN-RIGHT(SEQUENCER)   -------------------------------------------- */
+
+.sequencer {
+    display: flex;
+}
+
+.sequencer1 {
+    margin-top: 9px;
+}
+
+.note {
+    background-color: #2d2c2c;
+    border: 3px solid #7eefc5;
+    border-radius: 5px;
+    width: 2.3em;
+    height: 4em;
+    margin: 25px 20px;
+    outline: none;
+}
+
+.active {
+    background-color: #7eefc5;
+}
+
+/* ----------------------------   LED BAR   ----------------------------------------------------------------- */
+
+.LEDRow {
+    display: flex;
+}
+
+.LEDNote {
+    border: 1px solid #7eefc5;
+    width: 20px;
+    height: 5px;
+    margin: 0px 1.5em;
+}
