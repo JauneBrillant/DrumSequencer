@@ -25,7 +25,7 @@ body {
     margin-left: 2.5em;
 }
 
-#play-button {
+#play-btn {
     margin-left: 5em;
     padding: 15px 20px;
     background-color: #7eefc5;
@@ -97,37 +97,35 @@ body {
 
 /* ----------------------------   MAIN-RIGHT(SEQUENCER)   -------------------------------------------- */
 
-.sequencer {
+#LEDStep {
     display: flex;
 }
 
-.sequencer1 {
-    margin-top: 9px;
+.led {
+    width: 17px;
+    margin: 0 15px;
+    padding: 3px 10px;
+    background-color: #add6c7;
 }
 
-.note {
-    background-color: #2d2c2c;
-    border: 3px solid #7eefc5;
-    border-radius: 5px;
-    width: 2.3em;
-    height: 4em;
-    margin: 25px 20px;
-    outline: none;
+.led:nth-child(4n) {
+    margin-right: 2.5em;
 }
 
-.active {
+/* ------------------------------------- */
+
+input[type="checkbox"] {
+    margin: 47px 25px;
+    transform: scale(2.5, 3.3);
+}
+
+input[type="checkbox"]:checked {
     background-color: #7eefc5;
 }
 
-/* ----------------------------   LED BAR   ----------------------------------------------------------------- */
-
-.LEDRow {
-    display: flex;
+input:nth-child(4n) {
+    margin-right: 45px;
 }
 
-.LEDNote {
-    border: 1px solid #7eefc5;
-    width: 20px;
-    height: 5px;
-    margin: 0px 1.5em;
+#kick {
 }
